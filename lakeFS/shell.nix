@@ -14,6 +14,6 @@ pkgs.mkShell {
       virtualenv venv
     fi
     source venv/bin/activate
-    pip install lakefs-sdk==1.43.0 python-on-whales==0.62.0 tenacity==8.2.2
+    pip install lakefs-sdk==1.43.0 python-on-whales==0.62.0 tenacity==8.2.2 lakefs_client==0.104.0
   '';
 }
